@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/eportfolio-semester1/', // Ganti './' dengan '/nama-repository/'
   plugins: [react()],
   resolve: {
     alias: {
