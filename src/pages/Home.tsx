@@ -76,12 +76,12 @@ export default function Home() {
             <div className="relative">
               <img
                 src={profilePhoto}
-                alt="Gomos Andreas Sianturi"
+                alt="Yonathan Paulus Ritonga"
                 className="w-full max-h-[520px] object-cover rounded-sm border border-line"
               />
               <div className="mt-4">
                 <p className="font-serif text-base text-ink font-semibold">
-                  Gomos Andreas Sianturi
+                  Yonathan Paulus Ritonga
                 </p>
                 <p className="font-serif text-sm text-ink-muted">
                   Mahasiswa PPG Prajabatan — PJOK
@@ -176,14 +176,14 @@ export default function Home() {
           <div>
             <img
               src={profilePhoto}
-              alt="Gomos Andreas Sianturi"
+              alt="Yonathan Paulus Ritonga"
               className="w-full max-h-80 object-cover rounded-sm border border-line"
             />
           </div>
           <div>
             <SectionHeading title="Sekilas Tentang Saya" />
             <p className="font-serif text-body text-ink-soft mt-6 max-w-prose">
-              Nama saya Gomos Andreas Sianturi. Saya merupakan mahasiswa PPG
+              Nama saya Yonathan Paulus Ritonga. Saya merupakan mahasiswa PPG
               Prajabatan bidang Pendidikan Jasmani, Olahraga, dan Kesehatan
               (PJOK). Bagi saya, menjadi guru bukan hanya tentang menyampaikan
               materi, tetapi juga tentang memahami peserta didik, membangun
