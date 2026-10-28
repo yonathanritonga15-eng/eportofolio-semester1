@@ -1,5 +1,28 @@
-import { profilePhoto, educationTimeline } from '@/data/courses';
+import { profilePhoto } from '@/data/courses';
 import SectionHeading from '@/components/SectionHeading';
+
+const educationTimeline = [
+  {
+    institution: 'PPG Prajabatan PJOK — Universitas Negeri Medan',
+    period: '2026 – Sekarang',
+  },
+  {
+    institution: 'S1 Pendidikan Kepelatihan Olahraga (PKO) — Universitas Negeri Medan',
+    period: '2020 – 2024',
+  },
+  {
+    institution: 'SMAS Katolik Tri Sakti Medan',
+    period: '2017 – 2020',
+  },
+  {
+    institution: 'SMP Negeri 8 Medan',
+    period: '2014 – 2017',
+  },
+  {
+    institution: 'SD Prabhudy PWKI Medan',
+    period: '2008 – 2014',
+  },
+];
 
 export default function About() {
   return (
@@ -19,11 +42,11 @@ export default function About() {
         <div>
           <img
             src={profilePhoto}
-            alt="Yonathan Paulus Ritonga"
+            alt="Gomos Andreas Sianturi"
             className="w-full max-h-96 object-cover rounded-sm border border-line"
           />
           <p className="font-serif text-sm text-ink-muted mt-3">
-            Yonathan Paulus Ritonga
+            Gomos Andreas Sianturi
             <br />
             Mahasiswa PPG Prajabatan — PJOK
           </p>
@@ -35,7 +58,7 @@ export default function About() {
                 Nama
               </span>
               <span className="font-serif text-[15px] text-ink">
-                Yonathan Paulus Ritonga
+                Gomos Andreas Sianturi
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-8 border-t border-line-soft pt-4 pb-4">
@@ -75,7 +98,7 @@ export default function About() {
 
       <div className="max-w-prose">
         {educationTimeline.map((item, index) => (
-          <div key={item.institution} className="flex gap-6 group">
+          <div key={index} className="flex gap-6 group">
             {/* Timeline line and dot */}
             <div className="flex flex-col items-center shrink-0">
               <div className="w-3 h-3 rounded-full border-2 border-ppg bg-paper mt-2" />
