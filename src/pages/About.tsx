@@ -58,7 +58,7 @@ export default function About() {
                 Nama
               </span>
               <span className="font-serif text-[15px] text-ink">
-                Gomos Andreas Sianturi
+                Yonathan Paulus Ritonga
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-8 border-t border-line-soft pt-4 pb-4">
