@@ -42,11 +42,11 @@ export default function About() {
         <div>
           <img
             src={profilePhoto}
-            alt="Gomos Andreas Sianturi"
+            alt="Yonathan Paulus Ritonga"
             className="w-full max-h-96 object-cover rounded-sm border border-line"
           />
           <p className="font-serif text-sm text-ink-muted mt-3">
-            Gomos Andreas Sianturi
+            Yonathan Paulus Ritonga
             <br />
             Mahasiswa PPG Prajabatan — PJOK
           </p>
