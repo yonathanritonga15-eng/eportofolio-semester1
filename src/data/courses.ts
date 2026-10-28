@@ -194,7 +194,7 @@ export const educationTimeline = [
 
 const BASE = import.meta.env.BASE_URL;
 
-export const profilePhoto = `${BASE}images/WhatsApp%20Image%202026-10-28%20at%2022.10.08.jpeg`;
+export const profilePhoto = `${BASE}images/foto profil.jpeg`;
 
 export const profilePhotoSecondary =
   'https://images.pexels.com/photos/31409070/pexels-photo-31409070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
