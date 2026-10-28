@@ -19,11 +19,11 @@ export default function About() {
         <div>
           <img
             src={profilePhoto}
-            alt="Gomos Andreas Sianturi"
+            alt="Yonathan Paulus Ritonga"
             className="w-full max-h-96 object-cover rounded-sm border border-line"
           />
           <p className="font-serif text-sm text-ink-muted mt-3">
-            Gomos Andreas Sianturi
+            Yonathan Paulus Ritonga
             <br />
             Mahasiswa PPG Prajabatan — PJOK
           </p>
@@ -35,7 +35,7 @@ export default function About() {
                 Nama
               </span>
               <span className="font-serif text-[15px] text-ink">
-                Gomos Andreas Sianturi
+                Yonathan Paulus Ritonga
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-8 border-t border-line-soft pt-4 pb-4">
