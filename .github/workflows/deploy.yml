@@ -2,7 +2,7 @@ name: Deploy Website Vite
 
 on:
   push:
-    branches: ["main"] # Ganti dengan master jika nama branch utama kamu adalah master
+    branches: ["main"] # Ubah ke "master" jika branch utama Anda bernama master
 
 permissions:
   contents: read
