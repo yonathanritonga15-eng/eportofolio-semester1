@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/eportfolio-semester1/', // Wajib diubah ke /nama-repository-akun-kedua/
+  base: '/eportofolio-semester1/', // Tambahkan huruf 'o' (eportofolio-semester1)
   plugins: [react()],
   resolve: {
     alias: {
