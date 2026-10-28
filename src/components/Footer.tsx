@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
           <div>
             <p className="font-serif text-lg text-white font-semibold">
-              Gomos Andreas Sianturi
+              Yonathan Paulus Ritonga
             </p>
             <p className="font-serif text-sm text-white/60 mt-1">
               PPG Prajabatan · PJOK · Semester 1 · 2026
@@ -36,7 +36,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-white/15">
           <p className="font-serif text-sm text-white/50">
-            © 2026 Gomos Andreas Sianturi
+            © 2026 Yonathan Paulus Ritonga
           </p>
         </div>
       </div>
