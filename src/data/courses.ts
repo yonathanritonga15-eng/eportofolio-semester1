@@ -124,7 +124,7 @@ export const courses: Course[] = [
     reflection:
       'PPL mengajarkan saya kerendahan hati. Saya menyadari bahwa mengajar jauh lebih sulit dari yang saya bayangkan. Tetapi di saat yang sama, melihat peserta didik mulai paham dan menikmati pembelajaran memberi saya kepuasan yang tidak bisa dijelaskan dengan kata-kata. Saya belajar bahwa refleksi setelah mengajar sama pentingnya dengan persiapan sebelum mengajar — karena di situlah saya tumbuh.',
     practiceConnection:
-      'Pengalaman PPL ini menjadi bekal paling nyata bagi saya. Saya akan terus mengasih kemampuan merencanakan pembelajaran yang fleksibel, mengelola kelas dengan tegas namun hangat, dan melakukan refleksi setiap kali selesai mengajar. Saya juga akan terus berdiskusi dengan guru-guru senior untuk belajar dari pengalaman mereka.',
+      'Pengalaman PPL ini menjadi bekal paling nyata bagi saya. Saya akan terus mengasah kemampuan merencanakan pembelajaran yang fleksibel, mengelola kelas dengan tegas namun hangat, dan melakukan refleksi setiap kali selesai mengajar. Saya juga akan terus berdiskusi dengan guru-guru senior untuk belajar dari pengalaman mereka.',
   },
   {
     id: 'pola-pikir-bertumbuh',
@@ -185,21 +185,14 @@ export const courses: Course[] = [
 ];
 
 export const educationTimeline = [
-  { institution: 'SD Lae Parira', period: 'Pendidikan Dasar' },
-  { institution: 'SMPN Lae Parira', period: 'Pendidikan Menengah Pertama' },
-  { institution: 'SMAN Lae Parira', period: 'Pendidikan Menengah Atas' },
-  { institution: 'S1 PJKR Universitas Negeri Medan', period: 'Pendidikan Tinggi' },
-  { institution: 'PPG Prajabatan', period: 'Pendidikan Profesi · 2026' },
+  { institution: 'SD Prabhudy PWKI Medan', period: 'Pendidikan Dasar' },
+  { institution: 'SMP Negeri 8 Medan', period: 'Pendidikan Menengah Pertama' },
+  { institution: 'SMAS Katolik Tri Sakti Medan', period: 'Pendidikan Menengah Atas' },
+  { institution: 'S1 Pendidikan Kepelatihan Olahraga (PKO) — Universitas Negeri Medan', period: 'Pendidikan Tinggi' },
+  { institution: 'PPG Prajabatan PJOK — Universitas Negeri Medan', period: 'Pendidikan Profesi · 2026' },
 ];
 
-import documentationPhoto01 from '@/assets/documentation/semester1/IMG_20260521_075014.jpg';
-import documentationPhoto02 from '@/assets/documentation/semester1/IMG_20260521_074905.jpg';
-import documentationPhoto03 from '@/assets/documentation/semester1/IMG-20260401-WA0013.jpg';
-import documentationPhoto04 from '@/assets/documentation/semester1/IMG-20260417-WA0035.jpg';
-import documentationPhoto05 from '@/assets/documentation/semester1/IMG-20260407-WA0030.jpg';
-import documentationPhoto06 from '@/assets/documentation/semester1/IMG-20260424-WA0016.jpg';
-
-export const profilePhoto = './images/IMG_1546.JPG';
+export const profilePhoto = '/images/WhatsApp Image 2026-10-28 at 22.10.08.jpeg';
 
 export const profilePhotoSecondary =
   'https://images.pexels.com/photos/31409070/pexels-photo-31409070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
@@ -214,43 +207,50 @@ export interface DocumentationPhoto {
 
 export const documentationPhotos: DocumentationPhoto[] = [
   {
-    image: documentationPhoto01,
-    imageAlt: 'Peserta PPG mengikuti kegiatan pembelajaran bersama di dalam kelas',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.08.jpeg',
+    imageAlt: 'Dokumentasi Kegiatan PPG Prajabatan PJOK',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
   },
   {
-    image: documentationPhoto02,
-    imageAlt: 'Peserta PPG mengajar dan berinteraksi dengan peserta didik di dalam kelas',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.11 (1).jpeg',
+    imageAlt: 'Dokumentasi Pembelajaran Kelas',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
   },
   {
-    image: documentationPhoto03,
-    imageAlt: 'Peserta PPG mengikuti kegiatan pembelajaran di ruang kelas',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.11.jpeg',
+    imageAlt: 'Dokumentasi Diskusi Perkuliahan',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
   },
   {
-    image: documentationPhoto04,
-    imageAlt: 'Peserta PPG berfoto bersama di lingkungan sekolah',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.12 (1).jpeg',
+    imageAlt: 'Dokumentasi Kegiatan PPL',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
   },
   {
-    image: documentationPhoto05,
-    imageAlt: 'Peserta PPG mengikuti kegiatan pembelajaran di dalam kelas',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.12.jpeg',
+    imageAlt: 'Dokumentasi Refleksi Pembelajaran',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
   },
   {
-    image: documentationPhoto06,
-    imageAlt: 'Peserta PPG berfoto bersama di halaman sekolah',
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.13 (1).jpeg',
+    imageAlt: 'Dokumentasi Kebersamaan Kelompok',
+    title: '',
+    caption: '',
+    category: 'Dokumentasi Semester 1',
+  },
+  {
+    image: '/images/WhatsApp Image 2026-10-28 at 22.10.13.jpeg',
+    imageAlt: 'Dokumentasi Aktivitas Olahraga PJOK',
     title: '',
     caption: '',
     category: 'Dokumentasi Semester 1',
